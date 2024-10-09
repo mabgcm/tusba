@@ -10,9 +10,10 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:400,500,700%7CNoto+Sans:400,700">
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
   </head>
-  <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+  <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="page-loader">
       <div>
         <div class="page-loader-body">
@@ -27,15 +28,15 @@
       <header class="page-head">
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-secondary" data-stick-up-clone="true" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-lg-stick-up-offset="252px">
-            <!-- <div class="rd-navbar-inner">
-              <ul class="list-inline list-inline-lg offset-top-0">
+            <div class="rd-navbar-inner">
+              <!-- <ul class="list-inline list-inline-lg offset-top-0">
                 <li><a class="ioon icon-sm icon-silver-chalice fa-facebook" href="#"></a></li>
                 <li><a class="ioon icon-sm icon-silver-chalice fa-twitter" href="#"></a></li>
                 <li><a class="ioon icon-sm icon-silver-chalice fa-instagram" href="#"></a></li>
                 <li><a class="ioon icon-sm icon-silver-chalice fa-google-plus" href="#"></a></li>
                 <li><a class="ioon icon-sm icon-silver-chalice fa-pinterest-p" href="#"></a></li>
-              </ul>
-            </div> -->
+              </ul> -->
+            </div>
             <div class="rd-navbar-inner">
               <!-- RD Navbar Panel-->
               <div class="rd-navbar-panel">
@@ -91,8 +92,8 @@
               <div class="rd-navbar-nav-wrap">
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
-                  <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About Us</a></li>
+                  <li ><a href="index.html">Home</a></li>
+                  <li class="active"><a href="about.html">About Us</a></li>
                   <li><a href="services.html">Our Services</a></li>
                   <li><a href="contacts.html">Contact</a></li>
                   <li><a href="mail">Request a Quote</a></li>
@@ -102,85 +103,137 @@
           </nav>
         </div>
       </header>
-      <div class="swiper-container swiper-slider swiper-secondary" data-autoplay="3500" data-height="100vh" data-min-height="300px">
-        <div class="swiper-wrapper text-center">
-          <div class="swiper-slide" data-slide-bg="images/slide1.jpg">
-            <div class="swiper-slide-caption">
-              <div class="container">
-                <div class="row section-100-vh align-items-sm-center justify-content-sm-center">
-                  <div class="col-xxl-8 col-md-9" data-caption-animate="fadeInDown" data-caption-delay="200">
-                    <h1 class="text-white">Family-Owned Professional Painting Services</h1>
-                    <p class="h6 offset-top-30">Tusba Painting Inc. offers premium residential and commercial painting services. We specialize in both interior and exterior painting and are committed to exceeding customer expectations.</p>
-                    <div class="group"><a class="btn btn-primary btn-form" href="services.html">Our Services</a><a class="btn btn-dark btn-form" href="contacts.html">Contact Us</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <!-- Classic Breadcrumbs-->
+      <section class="breadcrumb-classic bg-image" style="background-image: url(&quot;images/breadcrumbs-parallax-01.jpg&quot;)">
+        <div class="container">
+          <div class="row">
+            <ul class="list-breadcrumb">
+              <li><a href="index.html">home</a></li>
+              <li>about
+              </li>
+            </ul>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/slide2.jpg">
-            <div class="swiper-slide-caption">
-              <div class="container">
-                <div class="row section-100-vh align-items-sm-center justify-content-sm-center">
-                  <div class="col-xxl-8 col-md-9" data-caption-animate="fadeInDown" data-caption-delay="200">
-                    <h1 class="text-white">Expert Painting Solutions</h1>
-                    <p class="h6 offset-top-30">Our experienced team ensures top-notch service from consultation to completion. We handle every detail with care and professionalism, making your painting experience stress-free.</p>
-                    <div class="group"><a class="btn btn-primary btn-form" href="services.html">Our services</a><a class="btn btn-dark btn-form" href="contacts.html">Contact Us</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="swiper-slide" data-slide-bg="images/home-01-slide-01.jpg">
-            <div class="swiper-slide-caption">
-              <div class="container">
-                <div class="row section-100-vh align-items-sm-center justify-content-sm-center">
-                  <div class="col-xxl-8 col-md-9" data-caption-animate="fadeInDown" data-caption-delay="200">
-                    <h1 class="text-white">Experienced Technicians</h1>
-                    <p class="h6 offset-top-30">Our technicians have decades of practical, in-field experience besides factory training. This means they have the knowledge and skills needed to diagnose and repair any appliance you may have.</p>
-                    <div class="group"><a class="btn btn-primary btn-form" href="#">Our services</a><a class="btn btn-dark btn-form" href="#">Get in touch</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
-        <div class="swiper-button-prev"><span>Prev</span></div>
-        <div class="swiper-button-next"><span>Next</span></div>
-        <div class="custom-way-point custom-way-point-swiper animated" data-custom-scroll-to="custom-way-point">Scroll down</div>
-      </div>
-      <section class="section-75 section-md-120 section-lg-120 section-xl-150" id="custom-way-point">
-        <div class="container text-left">
-          <div class="row row-15 justify-content-sm-center">
-            <div class="col-md-9 col-lg-6">
-              <div class="box-info-custom" style="background-image: url(images/residential.jpg );">
-                <div class="box-info-custom-inner">
-                  <h5 class="box-info-custom-title"><a href="services.html">Residential Painting</a></h5>
-                  <p>We provide high-quality interior and exterior painting for residential homes. Whether it's a complete renovation or a simple refresh, we’ve got you covered.</p>
+      </section>
+      <section class="section-50 section-sm-top-80 section-md-top-100 section-lg-top-150 bg-image bg-revail-lg bg-top-right" style="background-image: url(images/bg-about-01.jpg)">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6">
+              <h1>About us</h1>
+              <h2>A Tradition of Quality and Care</h2>
+              <p>Tusba Painting Inc. has been proudly serving the Ottawa region with over 10 years of experience. As a family-owned and family-run business, we take great pride in providing our customers with personalized care and attention that larger companies simply cannot offer.</p>
+              <p>Our mission is to deliver top-notch painting services with a focus on customer satisfaction. This is made possible by our experienced and dedicated team, committed to bringing your vision to life with professionalism and efficiency.</p>
+              <div class="unit flex-row align-items-center unit-spacing-xl text-left justify-content-center justify-content-lg-start">
+                <div class="unit-left"><img class="img-responsive" src="images/signature.png" alt="" width="109" height="102"/>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-9 col-lg-6">
-              <div class="box-info-custom" style="background-image: url(images/commercial.jpg );">
-                <div class="box-info-custom-inner">
-                  <h5 class="box-info-custom-title"><a href="services.html">Commercial Painting</a></h5>
-                  <p>Tusba Painting Inc. handles all your commercial painting needs, ensuring that your business makes a lasting impression with a flawless finish.</p>
+                <div class="unit-body">
+                  <h6>Celal & Nurullah</h6><span class="small">Co-Founders, Tusba Painting Inc.</span>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <!-- Counters-->
+      <section class="section-75 section-md-120 section-xl-130 bg-wild-sand">
+        <div class="container">
+          <div class="row row-40 text-center">
+            <div class="col-sm-6 col-md-3">
+              <div class="counter" data-from="100" data-to="597"></div>
+              <div class="counter-cite">positive reviews</div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="counter" data-from="100" data-to="264"></div>
+              <div class="counter-cite">Projects</div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="counter" data-from="0" data-to="26"></div>
+              <div class="counter-cite">employees</div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="counter" data-from="100" data-to="148"></div>
+              <div class="counter-cite">partners</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-gray-darker-4  section-75 section-md-120 section-xl-150">
+        <div class="container">
+          <h2><span class="small">Meet The Team</span>	People behind our success
+          </h2>
+          <div class="row row-40 justify-content-md-between">
+            <div class="col-sm-6 col-lg-3"><img class="img-responsive" src="images/about-02-360x404.jpg" alt="" width="360" height="404"/>
+              <h6><a href="#"> Celal Cidan</a></h6><span class="small small-md">Founder</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quod tempora ducimus aliquam vero dolore.</p>
+            </div>
+            <div class="col-sm-6 col-lg-3"><img class="img-responsive" src="images/about-03-360x404.jpg" alt="" width="360" height="404"/>
+              <h6><a href="#"> Nurullah Cidan</a></h6><span class="small small-md">Co Founder</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloremque ut magni esse expedita saepe sit aliquid tempore laborum. Aliquam.</p>
+            </div>
+            <div class="col-sm-6 col-lg-3"><img class="img-responsive" src="images/about-04-360x404.jpg" alt="" width="360" height="404"/>
+              <h6><a href="#"> Doina Ostrov</a></h6><span class="small small-md">Founder</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt!</p>
+            </div>
+            <div class="col-sm-6 col-lg-3"><img class="img-responsive" src="images/about-05-360x404.jpg" alt="" width="360" height="404"/>
+              <h6><a href="#"> John Doe</a></h6><span class="small small-md">Painter</span>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet officiis esse numquam, nobis saepe fugiat fuga accusantium amet eligendi? Et.</p>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="bg-image-filter bg-image bg-image-fixed section-xxl" style="background-image: url(&quot;images/winter.jpg&quot;);">
-        <div class="container filter-inner-wrap">
-          <div class="row justify-content-sm-center text-center">
-            <div class="col-sm-10 col-md-8 col-lg-6">
-              <h2 class="text-white"><span class="small text-white">Get in Touch</span> Contact Tusba Painting Inc.</h2>
-              <p class="text-white mb-5">Let us help you with your next painting project! Reach us via phone or email, and we’ll provide a free estimate and walk you through the process to ensure you’re fully satisfied.</p>
-              <a class="btn btn-default btn-form btn-default-white" href="contacts.html">Contact us</a>
+      <section class="section-75 section-md-120 section-lg-150 section-lg-bottom-130">
+        <div class="container">
+          <div class="row justify-content-sm-center">
+            <div class="col-xl-12 col-lg-8">
+              <div class="row row-55">
+                <div class="col-xl-5 col-xxl-6 row-40">
+                  <h2>Our Core Values</h2>
+                  <div>
+                    <div class="unit flex-column flex-md-row unit-spacing-md text-md-left">
+                      <div class="unit-left"><span class="mt-4 icon icon-xl icon-primary fas fa-user-shield"></span></div>
+                      <div class="unit-body">
+                        <h5><span class="small"></span>Integrity</h5>
+                        <p class="inset-xxl-right-40">
+                          We believe in doing the right thing in every situation. Our business is built on a foundation of trust and ethical practices.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="unit flex-column flex-md-row unit-spacing-md text-md-left">
+                      <div class="unit-left"><span class="mt-4 icon icon-xl icon-primary fas fa-heart"></span></div>
+                      <div class="unit-body">
+                        <h5><span class="small"></span>Empathy</h5>
+                        <p class="inset-xxl-right-40">
+                          We put ourselves in our customers' shoes to understand their needs, and we aim to deliver services that truly solve their problems.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="unit flex-column flex-md-row unit-spacing-md text-md-left">
+                      <div class="unit-left"><span class="mt-4 icon icon-xl icon-primary fas fa-hands-helping"></span></div>
+                      <div class="unit-body">
+                        <h5><span class="small">Our equipment</span>Responsibility</h5>
+                        <p class="inset-xxl-right-40">
+                          We take ownership of every project and ensure that we deliver results with accountability and transparency.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="col-xl-7 col-xxl-6 row-40">
+                  <h2>People Trust Us</h2>
+                  <p>Earning the trust of our customers is our key to success. We strive to maintain and grow this trust with every interaction and project.</p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gfvVJdR-CT0"></iframe>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
       
       <!-- Page Footer-->
       <footer class="page-footer page-footer-classic">
@@ -259,41 +312,6 @@
         </section>
       </footer>
     </div>
-    <!-- Modal -->
-<div id="popupModal" class="modal">
-  <div class="modal-content p-5">
-    <span class="close">&times;</span>
-    <h2>Winter Special Rate</h2>
-    <p>To keep our team of painters busy, we offer discounted pricing during our slower winter season for interior jobs done in January, February, March, and April. The winter special pricing can save you 20-30% off our regular season rates (valid for residential jobs and subject to availability). Contact us today to learn more!</p>
-    <a class="btn btn-primary btn-form" href="contacts.html">Get A Free Estimate</a>
-  </div>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById("popupModal");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// Show the modal after 5 seconds
-setTimeout(function() {
-  modal.style.display = "block";
-}, 15000);
-
-// Close the modal when the user clicks on <span> (x)
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// Close the modal when the user clicks outside of the modal
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>

@@ -36573,7 +36573,8 @@ html:not(.lt-ie10) .not-animated {
 	bottom: 0;
 	left: -100vw;
 	right: -100vw;
-	background-color: #f6f6f6;
+	/* background-color: #f6f6f6; */
+	background-color: black !important;
 	z-index: -1;
 }
 
@@ -38686,4 +38687,8 @@ ol ol {
 body.modal-open {
 	overflow-y: hidden;
 	/* Prevent page scrolling */
+}
+
+.rd-navbar-inner {
+	background-color: black !important;
 }
